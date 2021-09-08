@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* ==== MEDSOS ==== */
+.medsos {
+    padding: 15px;
+    background-color: hotpink;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: teal;
+}
+.medsos ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.container{
+    width:  80%;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+/* ==== MEDSOS ==== */
+
+/* Header */
+
+/* header{ */
+    /* border: 1px solid; */
+/* } */
+
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: hotpink
+}
+header h1 a{
+    text-decoration: none;
+    color: hotpink; 
+}
+header ul{
+    float: right;
+    /* padding: 30px 0; */
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 25px 20px;
+    display: inline-block;
+    color: black;
+}
+header ul li a:hover{
+    text-decoration: none;
+    /* padding: 25px 20px; */
+    color: white;
+    background-color: hotpink;
+}
+.active{
+    background-color: hotpink;
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* Banner */
+.banner {
+    height: 80vh;
+    background-image: url('img/mia-baker-jjhvyxm34nY-unsplash.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h2 {
+    color: rgb(238, 232, 232);
+    border: 3px solid rgb(39, 37, 37);
+    padding: 20px 25px;
+    z-index: 1;
+}
+
+.banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hotpink(56, 119, 146, 0.6);
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* About */
+section {
+    padding: 50px 0;
+}
+
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: hotpink;
+    margin-bottom: 25px;
+}
+
+.about p {
+    color: rgb(61, 3, 3);
+    word-spacing: 2px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+/* service */
+
+.service{
+    /* padding-bottom: 100px; */
+font-family: poppins, sans-serif;    
+background: linear-gradient(90deg,#F6F8FD 29px,transparent 1%)center,linear-gradient(#F6F8FD 29px,transparent 1%)center,#bfc5d3;
+background-size: 30px 30px;
+}
+
+.box{
+    /* border: 1px solid; */
+    color: hotpink;
+}
+.box .col-4{
+    width: 25%;
+    padding: 20px;
+    float: left;
+    text-align: center;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+.icon{
+    border: 1px solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.box .col-4 h4{
+    margin: 20px 0;
+}
+.aboutheader{
+    padding: 27px 0;
+    background-color: hotpink;
+}
+.aboutheader h3{
+    color: white;
+}
+.aboutabout{
+    text-align: center;
+}
+.aboutvisi{
+    text-align: center;
+}
+.aboutmisi{
+    text-align: center;
+}
+.peta{
+    padding-bottom: 100px;
+    padding-top: 0px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    text-align: center;
+
+}
+footer{
+    padding: 30px;
+    background-color: hotpink;
+    color: white;
+    text-align: center;
+}
