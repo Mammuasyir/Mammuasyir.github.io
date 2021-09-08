@@ -11,10 +11,10 @@
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white; 
 }
 a:hover{
-    color: teal;
+    color: red;
 }
 .medsos ul li{
     display: inline-block;
@@ -23,6 +23,7 @@ a:hover{
 .container{
     width:  80%;
     margin: 0 auto;
+
     /* border: 1px solid; */
 }
 /* ==== MEDSOS ==== */
@@ -71,7 +72,7 @@ header ul li a:hover{
 /* Banner */
 .banner {
     height: 80vh;
-    background-image: url('img/mia-baker-jjhvyxm34nY-unsplash.jpg');
+    background-image: url('../img/mia-baker-jjhvyxm34nY-unsplash.jpg');
     background-size: cover;
     position: relative;
     display: flex;
